@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/heading.scss"],"names":[],"mappings":"AACA,GACE,MAAA","file":"application.css","sourcesContent":["$red: red;\r\nh1{\r\n  color: $red;\r\n}"]}
