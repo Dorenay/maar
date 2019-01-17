@@ -1,18 +1,23 @@
-# Semantic Personal Publishing Platform
+<p style="text-align: center">Semantic Personal Publishing Platform</p>
 
-## First Things First
-> Welcome. WordPress is a very special project to me. Every developer and contributor adds >something unique to the mix, and together we create something beautiful that I&#8217;m proud to >be a part of. Thousands of hours have gone into WordPress, and we&#8217;re dedicated to making >it better every day. Thank you for making it part of your world.
-&#8212; Matt Mullenweg
+<h2>First Things First</h2>
+<p>Welcome. WordPress is a very special project to me. Every developer and contributor adds something unique to the mix, and together we create something beautiful that I&#8217;m proud to be a part of. Thousands of hours have gone into WordPress, and we&#8217;re dedicated to making it better every day. Thank you for making it part of your world.</p>
+<p style="text-align: right">&#8212; Matt Mullenweg</p>
 
-## Installation: Famous 5-minute install
-* Unzip the package in an empty directory and upload everything.
-* Open _wp-admin/install.php_ in your browser. It will take you through the process to set up a _wp-config.php_ file with your database connection details.
-  * If for some reason this doesn&#8217;t work, don&#8217;t worry. It doesn&#8217;t work on all web hosts. Open up _wp-config-sample.php_ with a text editor like WordPad or similar and fill in your database connection details.
-  * Save the file as _wp-config.php_ and upload it.
-  * Open _wp-admin/install.php_ in your browser.
-* Once the configuration file is set up, the installer will set up the tables needed for your blog. If there is an error, double check your _wp-config.php_ file, and try again. If it fails again, please go to the [support forums](https://wordpress.org/support/) with as much data as you can gather.
-* **If you did not enter a password, note the password given to you.** If you did not provide a username, it will be _admin_.
-* The installer should then send you to the `<a href="wp-login.php">login page</a>`. Sign in with the username and password you chose during the installation. If a password was generated for you, you can then click on &#8220;Profile&#8221; to change the password.
+<h2>Installation: Famous 5-minute install</h2>
+<ol>
+  <li>Unzip the package in an empty directory and upload everything.</li>
+  <li>Open <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> in your browser. It will take you through the process to set up a <code>wp-config.php</code> file with your database connection details.
+    <ol>
+      <li>If for some reason this doesn&#8217;t work, don&#8217;t worry. It doesn&#8217;t work on all web hosts. Open up <code>wp-config-sample.php</code> with a text editor like WordPad or similar and fill in your database connection details.</li>
+      <li>Save the file as <code>wp-config.php</code> and upload it.</li>
+      <li>Open <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> in your browser.</li>
+    </ol>
+  </li>
+  <li>Once the configuration file is set up, the installer will set up the tables needed for your blog. If there is an error, double check your <code>wp-config.php</code> file, and try again. If it fails again, please go to the <a href="https://wordpress.org/support/" title="WordPress support">support forums</a> with as much data as you can gather.</li>
+  <li><strong>If you did not enter a password, note the password given to you.</strong> If you did not provide a username, it will be <code>admin</code>.</li>
+  <li>The installer should then send you to the <a href="wp-login.php">login page</a>. Sign in with the username and password you chose during the installation. If a password was generated for you, you can then click on &#8220;Profile&#8221; to change the password.</li>
+</ol>
 
 <h2>Updating</h2>
 <h3>Using the Automatic Updater</h3>
