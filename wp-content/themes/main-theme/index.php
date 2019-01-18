@@ -1,65 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-
-	<meta charset="utf-8">
-
-	<title>Title</title>
-	<meta name="description" content=""> 
-
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#000">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#000">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-
-	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
-
-</head>
-
-<body class="background-color">
-	<header class="header-maar24" style="background-image: url('img/BG-first-section.jpg')">
-		<div class="container-md">
-			<div class="header-maar24__top">
-				<div class="header-maar24__burgerMobile">
-					Menu
-					<div class="menu btn2">
-						<div class="icon"></div>
-					</div>
-				</div>
-				<nav class="header-maar24__navigation">
-					<ul>
-						<li><a href="#">Appliance Repair</a></li>               
-						<li><a href="#">Area We Cover</a></li>
-						<li><a href="#">Our Services</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-				<a href="#" class="header-maar24__logo">
-					<img src="img/logo.png" alt="logo">
-				</a>
-				<div class="header-maar24__phone">
-					<img src="img/icon-phone.png" alt="icon-phone">
-					<a href="tel:+(903) 722 17 03">(903) 722 17 03</a>
-				</div>
-			</div>
-			<div class="header-maar24__context">
-				<h1>Help your appliances  work to the max</h1>
-				<p>Reliable repair partner.  In order to avoid the risk of acciden</p>
-			</div>
-		</div>
-	</header>
+<?php 
+	get_header();
+?>
 	<section class="our-services">
 		<div class="container">
 			<div class="our-services__title">
@@ -69,7 +10,7 @@
 
 				<div class="our-services__items">
 					<div class="our-services__items__img">
-						<img src="img/Dishwasher-PNG-Pic.png" alt="img">
+						<img src="<?php echo get_template_directory_uri()?>/img/Dishwasher-PNG-Pic.png" alt="img">
 					</div>
 					<div class="our-services__items__title">
 						<h4>Dishwasher Repair</h4>
@@ -83,7 +24,7 @@
 
 				<div class="our-services__items">
 					<div class="our-services__items__img">
-						<img src="img/Dishwasher-PNG-Pic.png" alt="img">
+						<img src="<?php echo get_template_directory_uri()?>/img/Dishwasher-PNG-Pic.png" alt="img">
 					</div>
 					<div class="our-services__items__title">
 						<h4>Dishwasher Repair</h4>
@@ -97,7 +38,7 @@
 
 				<div class="our-services__items">
 					<div class="our-services__items__img">
-						<img src="img/Dishwasher-PNG-Pic.png" alt="img">
+						<img src="<?php echo get_template_directory_uri()?>/img/Dishwasher-PNG-Pic.png" alt="img">
 					</div>
 					<div class="our-services__items__title">
 						<h4>Dishwasher Repair</h4>
@@ -111,7 +52,7 @@
 
 				<div class="our-services__items">
 					<div class="our-services__items__img">
-						<img src="img/Dishwasher-PNG-Pic.png" alt="img">
+						<img src="<?php echo get_template_directory_uri()?>/img/Dishwasher-PNG-Pic.png" alt="img">
 					</div>
 					<div class="our-services__items__title">
 						<h4>Dishwasher Repair</h4>
@@ -125,7 +66,7 @@
 				
 				<div class="our-services__items">
 					<div class="our-services__items__img">
-						<img src="img/Dishwasher-PNG-Pic.png" alt="img">
+						<img src="<?php echo get_template_directory_uri()?>/img/Dishwasher-PNG-Pic.png" alt="img">
 					</div>
 					<div class="our-services__items__title">
 						<h4>Dishwasher Repair</h4>
@@ -139,7 +80,7 @@
 
 				<div class="our-services__items">
 					<div class="our-services__items__img">
-						<img src="img/Dishwasher-PNG-Pic.png" alt="img">
+						<img src="<?php echo get_template_directory_uri()?>/img/Dishwasher-PNG-Pic.png" alt="img">
 					</div>
 					<div class="our-services__items__title">
 						<h4>Dishwasher Repair</h4>
@@ -153,7 +94,7 @@
 
 				<div class="our-services__items">
 					<div class="our-services__items__img">
-						<img src="img/Dishwasher-PNG-Pic.png" alt="img">
+						<img src="<?php echo get_template_directory_uri()?>/img/Dishwasher-PNG-Pic.png" alt="img">
 					</div>
 					<div class="our-services__items__title">
 						<h4>Dishwasher Repair</h4>
@@ -167,7 +108,7 @@
 
 				<div class="our-services__items">
 					<div class="our-services__items__img">
-						<img src="img/Dishwasher-PNG-Pic.png" alt="img">
+						<img src="<?php echo get_template_directory_uri()?>/img/Dishwasher-PNG-Pic.png" alt="img">
 					</div>
 					<div class="our-services__items__title">
 						<h4>Dishwasher Repair</h4>
@@ -202,7 +143,7 @@
 	<section class="info-sec">
 		<div class="container-sn info-sec__flex">
 			<div class="info-sec__image">
-				<img src="img/KitchenAidLandingPage.jpg" alt="img">
+				<img src="<?php echo get_template_directory_uri()?>/img/KitchenAidLandingPage.jpg" alt="img">
 			</div>
 			<div class="info-sec__text">
 				<div class="info-sec__textContainer">
@@ -218,16 +159,16 @@
 	<section class="logo-cm">
 		<div class="container">
 			<div class="logo-cm__slider">
-				<div><img src="img/logo-CM-0.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-2.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-3.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-4.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-5.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-0.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-2.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-3.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-4.jpg" alt="img"></div>
-				<div><img src="img/logo-CM-5.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-0.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-2.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-3.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-4.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-5.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-0.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-2.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-3.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-4.jpg" alt="img"></div>
+				<div><img src="<?php echo get_template_directory_uri()?>/img/logo-CM-5.jpg" alt="img"></div>
 			</div>
 		</div>
 	</section>
@@ -255,9 +196,7 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10295.239733957973!2d23.98903559855387!3d49.827237390612474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps!5e0!3m2!1sru!2sua!4v1547731857057" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</section>
-	
-	<link rel="stylesheet" href="css/main.min.css">
-	<script src="js/scripts.min.js"></script>
 
-</body>
-</html>
+<?php
+	get_footer();
+?>
